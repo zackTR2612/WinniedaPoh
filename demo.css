@@ -1,0 +1,110 @@
+*{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.goat{
+    position: fixed;
+    background-image: url(hình/IMG_20230329_195203_075.jpg);
+    background-size: 85% 100%;
+    object-fit: cover;
+    background-position: center;
+    opacity: 58%;
+}
+.case{
+  background-color: #ddbf9b ;
+  height: 50dvb;
+  width: 95dvb;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 8dvb 8dvb 8dvb 8dvb;
+}
+body{
+  position: absolute;
+}
+.avatar{
+  background-color: red;
+  height: 21.5dvb;
+  width: 22.5dvb;  
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-11dvb,-24dvb);
+}
+.names{
+  margin-top: 2dvb;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+.social{
+  margin-top: 3dvb;
+  width: 45%;
+  height: 8dvb;
+  display: flex;
+  bottom: 5dvb;
+  left: 5dvb;
+  transform: translate(61%, 0);
+}
+.facebook{
+  background-color: #3b5998;
+  box-sizing: border-box;
+  width: 8dvb;
+  margin-right: 2.5%;
+  margin-left: 5%;
+  border-radius: 10% 10% 10% 10%;
+}
+.instagram{
+  background-color: #e95950;
+  box-sizing: border-box;
+  width: 8dvb;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  border-radius: 10% 10% 10% 10%;
+}
+.photo{
+  background-color: slategrey;
+  width: 8dvb;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 10% 10% 10% 10%;
+}
+.mail{
+  background-color: #e05c52;
+  width: 8dvb;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  border-radius: 10% 10% 10% 10%;
+}
+.casefb{
+  width: 8dvb;
+  height: 8.75dvb;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,0%);
+}
+.caseinsta{
+  width: 8dvb;
+  height: 8.75dvb;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,0%);
+}
+.casephoto{
+  width: 8dvb;
+  height: 8.75dvb;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,0%);
+}
+.casemail{
+  width: 8dvb;
+  height: 8.75dvb;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%,0%);
+}
